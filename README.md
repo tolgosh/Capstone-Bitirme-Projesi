@@ -1,22 +1,36 @@
-# BookStore CRUD Application
+# 📚 Capstone Bitirme Projesi - Bookstore Management System
 
-This is a complete BookStore management application built with React and Bootstrap. The application allows users to manage publishers, categories, books, authors, and book orders using full CRUD operations (Create, Read, Update, Delete).
+Bu proje, kitap yayımcılarını, kategorileri, kitapları, yazarları ve kitap ödünç alma işlemlerini yönetmek için kapsamlı bir kitapçı yönetim sistemidir. Frontend kısmı React ile geliştirilmiş, backend ise Node.js ve Express.js ile oluşturulmuştur.
 
-## Features
-- **CRUD Operations**: For Publishers, Categories, Books, Authors, and Book Orders.
-- **Responsive Layout**: Designed for a fixed width of 1200px for desktops.
-- **Real-Time Feedback**: Uses modals and toast notifications for user interactions.
-- **Fully Functional Router**: React Router for smooth navigation.
+## 🔗 Canlı Proje Linkleri
+- **Frontend (Netlify)**: [https://capstonebookstore.netlify.app](https://capstonebookstore.netlify.app)
+- **Backend (Koyeb)**: [https://alternative-katharyn-tolga-f3c7fff9.koyeb.app](https://alternative-katharyn-tolga-f3c7fff9.koyeb.app)
 
-## Tech Stack
-- **Frontend**: React, React Router, Bootstrap, Axios.
-- **Backend**: RESTful API for handling CRUD operations (API not included in this repository).
+## 🛠️ Projede Kullanılan Teknolojiler
+### Frontend
+- **React**: Kullanıcı arayüzünü oluşturmak için.
+- **React Router**: Single Page Application (SPA) navigasyonu sağlamak için.
+- **Bootstrap**: Tasarımı hızlıca oluşturmak ve responsive bir arayüz sağlamak için.
+- **Axios**: API isteklerini yönetmek için.
 
-## API Endpoints:
-Ensure that your backend supports the following endpoints for proper functionality:
+### Backend
+- **Node.js & Express**: API ve sunucu tarafı işlemler için.
+- **RESTful API**: CRUD işlemlerini yönetmek için standart API endpoint'leri.
 
-- Publishers: `GET /api/publishers`, `POST /api/publishers`, `DELETE /api/publishers/:id`.
-- Categories: `GET /api/categories`, `POST /api/categories`, `DELETE /api/categories/:id`.
-- Books: `GET /api/books`, `POST /api/books`, `DELETE /api/books/:id`.
-- Authors: `GET /api/authors`, `POST /api/authors`, `DELETE /api/authors/:id`.
-- Book Orders: `GET /api/orders`, `POST /api/orders`, `DELETE /api/orders/:id`.
+## 📦 Proje Özellikleri
+- **CRUD İşlemleri**: Yayımcı, Kategori, Kitap, Yazar ve Kitap Ödünç Alma verileri için tam CRUD (Create, Read, Update, Delete) işlemleri.
+- **SPA Yapısı**: React Router ile sayfalar arası sorunsuz geçiş.
+- **Responsive Tasarım**: Bootstrap ile responsive ve kullanıcı dostu bir arayüz.
+- **Bildirimler**: Başarılı ve başarısız işlemler için toast ve modal bildirimleri.
+
+## 🚀 Projeyi Çalıştırma
+### Gereksinimler
+- **Node.js** (v14 veya üzeri)
+- **npm** veya **yarn**
+- **Git**
+
+### Kurulum Adımları
+
+1. **Projeyi Klonlayın**
+   ```bash
+   git clone https://github.com/tolgosh/Capstone-Bitirme-Projesi.git
