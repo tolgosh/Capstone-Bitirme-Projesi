@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY pom.xml /app/
 
-COPY src /app/src
+COPY ./backend/src /app/src
 
 RUN mvn clean package -Dmaven.test.skip=true
 
